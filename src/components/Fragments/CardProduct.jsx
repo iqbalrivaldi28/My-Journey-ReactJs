@@ -19,7 +19,7 @@ const Body = (props) => {
   const { children, name } = props;
 
   return (
-    <div className="px-5 pb-5">
+    <div className="px-5 pb-5 h-full">
       <a href="">
         <h5 className="text-s font-semibold tracking-tigh text-white">{name}</h5>
         <p className="text-m text-white">{children}</p>
