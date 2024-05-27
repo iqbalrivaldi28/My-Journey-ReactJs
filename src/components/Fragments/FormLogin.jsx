@@ -10,8 +10,8 @@ const FormLogin = () => {
 
     let password = event.target.password.value;
     localStorage.setItem('password', password);
- 
-    window.location.href ="/products"
+
+    window.location.href = '/products';
   };
 
   return (
